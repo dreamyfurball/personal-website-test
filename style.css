@@ -1,0 +1,305 @@
+.font {
+    font-family: Hubballi, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #header
+  {
+    display: flex;
+    margin-top: 40px;
+    padding-left: 100px;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+
+  
+  }
+  
+
+ 
+  #main-logo
+  {
+
+    border: 3px solid rgb(20, 79, 181);
+    width: 10%;
+    border-radius: 50%;
+    
+ 
+  }
+
+  .menu
+  {
+    display: flex;
+    gap:15px;
+  }
+
+  p
+  {
+
+    padding-right: 10px;
+
+  }
+
+  
+
+  #Test
+  {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+  }
+
+
+
+  #group-img
+  {
+
+    width: 300px;
+    border-radius: 50px;
+    margin-top: 50px;
+    border: 3px dotted #FFB4B4;
+    margin-bottom: 50px;
+
+
+  
+  }
+
+  #main
+  {
+    display: flex;
+    justify-content: center;
+  }
+
+h1{
+    text-align: center;
+    font-family: Hubballi, sans-serif;
+    font-weight: 900 ;
+    letter-spacing: -1px;
+}
+
+#header > div > p > a
+
+{
+  color: #d2b6d0;
+  text-decoration: none;
+  
+}
+
+
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    flex-wrap: wrap;
+    margin-bottom: 140px;
+}
+
+
+.box
+{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+@keyframes spin {
+    0% {
+    }
+  
+    50% {
+      scale: 2;
+      transform: rotate(0);
+      border-radius: 0;
+    }
+  
+    100% {
+      transform: rotate(360deg);
+      border-radius: 50%;
+      scale: 2;
+    }
+  }
+  
+
+#box1
+{
+    background-color: hsl(0, 100%, 70%);
+    animation: 5s spin ease-in-out 1s infinite alternate;
+   
+}
+
+
+#box2
+{
+    background-color: hsl(52, 100%, 70%);
+    animation: 5s spin ease-in-out 1s infinite alternate;
+
+}
+
+#box3
+{
+    background-color: hsl(111, 100%, 70%);
+    animation: 5s spin ease-in-out 1s infinite alternate;
+}
+
+#box4
+{
+    background-color: hsl(201, 100%, 70%);
+    animation: 5s spin ease-in-out 1s infinite alternate;
+}
+
+#box5
+{
+    background-color: hsl(257, 100%, 70%);
+    animation: 5s spin ease-in-out 1s infinite alternate;
+}
+
+#box6
+{
+    background-color: hsl(319, 100%, 70%);
+    animation: 5s spin ease-in-out 1s infinite alternate;
+}
+
+
+
+
+.main-body > img.salento 
+{
+    
+    position: relative;
+    left: -70px;
+    height:400px;
+    border-radius: 50px;
+    
+   
+}
+
+
+
+
+
+.main-body
+{
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  flex-wrap: wrap;
+}
+
+.main-body > img.mnt-julio 
+{
+   height: 500px; 
+   z-index: 1;
+   border-radius: 50px;
+   
+   
+   
+
+  
+}
+
+.main-body > img.salento 
+{
+    
+    position: relative;
+    left: -70px;
+    height:800px;
+    border-radius: 50px;
+    
+   
+}
+
+body > div.main-body > p
+{
+    
+    width: 500px;
+    text-align: justify;
+    font-size: 25px;
+    color: rgb(222, 166, 63);
+    margin-right: 30px;
+    
+}
+
+
+
+footer {
+
+
+  
+  display: flex;
+  margin-top: 40pt;
+  height: fit-content;
+  background: #2D3138;
+  border-radius: 5px;
+  justify-content: center;
+  
+
+}
+
+h2{
+  color: white;
+  font-weight: normal;
+  font-family: Hubballi;
+}
+
+
+.socials
+{
+
+    
+      width: 40px;
+      height: 40px;
+      flex-wrap: wrap;
+      border-radius: 40%;
+
+     
+
+}
+
+.ss{
+
+  display: flex;
+  place-content: center;
+  gap: 20px;
+
+}
+
+@media (max-width: 1300px)
+{
+
+  .main-body
+{
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  flex-wrap: wrap;
+}
+  .main-body > img.mnt-julio 
+{
+   height: 400px; 
+   border-radius: 50px;
+   position: relative;
+   left: 50px;
+   
+   
+  
+}
+
+.main-body > img.salento 
+{
+    
+    display: none;
+
+   
+    
+   
+}
+
+
+
+}
